@@ -3,13 +3,13 @@
  Author      : Sabry Ragab Darwish
  Approach    : MPI_Send() and MPI_Recv()		   
  Description : This program demonstrates simple data decomposition. The master
-				process first initialize the array and then distributes and sends 
-				an equal portion of the array to the other processes (Slaves).
-				After the slaves receive and accumulate their portion of 
-				the array , they send the portion sum to the master.
-				The master process handle remaining cells of the array and 
-				receive the sub sums from slaves and accumulate them and 
-				display sum of the whole array.
+		process first initialize the array and then distributes and sends 
+		an equal portion of the array to the other processes (Slaves).
+		After the slaves receive and accumulate their portion of 
+		the array , they send the portion sum to the master.
+		The master process handle remaining cells of the array and 
+		receive the sub sums from slaves and accumulate them and 
+		display sum of the whole array.
  ============================================================================
  */
 #include <stdio.h>
