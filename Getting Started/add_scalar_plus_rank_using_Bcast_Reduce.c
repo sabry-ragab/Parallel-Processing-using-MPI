@@ -3,9 +3,9 @@
  Author      : Sabry Ragab Darwish
  Approach    : MPI_Reduce, MPI_Bcast		   
  Description : This program will examine collective communication. The master
-				process first initialize the scalar and then broadcast scalar.
-				Every process will add scalar plus its rank and then reduce it 
-				to master process(root).
+		process first initialize the scalar and then broadcast scalar.
+		Every process will add scalar plus its rank and then reduce it 
+		to master process(root).
  ============================================================================
  */
 #include <stdio.h>
