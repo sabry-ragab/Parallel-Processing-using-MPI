@@ -4,7 +4,7 @@
  Approach    : MPI_Scatter, MPI_Bcast, MPI_Reduce		   
  Description : In this example we will get maximum number in a given array,
 		broadcast block size, scatter this array to all processes, then get maximum
-		in each block, then reduce all sum maximum using MPI_Reduce with MPI_MAX operator.
+		in each block, then reduce all sub maximum using MPI_Reduce with MPI_MAX operator.
  =================================================================================
  */
 #include <stdio.h>
