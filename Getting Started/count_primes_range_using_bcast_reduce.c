@@ -3,11 +3,11 @@
  Author      : Sabry Ragab Darwish
  Approach    : MPI_Reduce, MPI_Bcast		   
  Description : This program gets the Count of prime numbers between
-				[ upper_bound and lower_bound ]. Calculate the sub range size
-				block = (upper_bound - lower_bound + 1) / n_process) 
-				Broadcast 'lower_bound' and 'block' to each process using MPI_Bcast 
-				Receive 'sub count' from each process using MPI_Reduce.
-				handle remaining numbers using only master process.
+		[ upper_bound and lower_bound ]. Calculate the sub range size
+		block = (upper_bound - lower_bound + 1) / n_process) 
+		Broadcast 'lower_bound' and 'block' to each process using MPI_Bcast 
+		Receive 'sub count' from each process using MPI_Reduce.
+		handle remaining numbers using only master process.
  ==============================================================================
  */
 #include <stdio.h>
