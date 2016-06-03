@@ -2,7 +2,7 @@
  ==============================================================================
  Author      : Sabry Ragab Darwish
  Approach    : MPI_Send, MPI_Recv		   
- Description : This program gets the prime numbers between[upper_bound and lower_bound]. 
+ Description : This program gets the prime numbers between two numbers [lower_bound, upper_bound]. 
 		Initialize lower and upper bound of range then calculate and send 
 		start and end of each process/slave, slaves check prime numbers in the range 
 		then put prime numbers in the 'sub_prime_numbers' and send it to the master.
